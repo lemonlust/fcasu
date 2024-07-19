@@ -121,12 +121,23 @@ html {
         <a href="tick.html" ><li>Tickets</li></a>
         <a href="buytick.html" ><li>Buy Tickets</li></a>
 
+
       </ul>
     </div>
   
     <div class="col-6 col-s-9">
-      <h1 class="body">Cash/Card Accepted</h1>
-      <p class="body">We require a 25-50% deposit for new clients, returning clients may pay after event.</p>
+      <h1 class="body">Buy Tickets</h1>
+      <div id="tc-container-iframe-5631"></div>
+<script src="https://ticketscandy.com/assets/javascript/tc_widget.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(event) {
+    TCWidget.createWidget({
+        iframeContainerId: 'tc-container-iframe-5631',
+        iframeUrl: '//ticketscandy.com/e/5631/embed'
+    });
+});
+</script>
+
     </div>
   
 
